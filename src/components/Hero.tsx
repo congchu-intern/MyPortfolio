@@ -17,7 +17,7 @@ export const Hero: React.FC<HeroProps> = ({ onRequestResume, onOpenProject }) =>
   const statusPhrases = [
     'Initializing developer portfolio...',
     'Loading defensive security modules...',
-    'Connecting to kernel node da-nang-01...',
+    'Connecting to kernel node hung-yen...',
     'Ready for enterprise collaboration.',
   ];
   const [phraseIdx, setPhraseIdx] = useState(0);
@@ -108,7 +108,7 @@ export const Hero: React.FC<HeroProps> = ({ onRequestResume, onOpenProject }) =>
       case 'whoami':
         response = (
           <p className="text-emerald-400">
-            alexander@cyber-core: Alexander Nguyen | B.S. Software Engineering (2025) | Da Nang / Ho Chi Minh, Vietnam
+              congdz@cyber-core: Cong Chu | B.S. Software Engineering (2025) | Thai Binh / Hung Yen, Vietnam
           </p>
         );
         break;
@@ -128,7 +128,7 @@ export const Hero: React.FC<HeroProps> = ({ onRequestResume, onOpenProject }) =>
           <div className="space-y-1 text-cyber-text/90">
             <p><span className="text-cyber-neon-cyan">EMAIL:</span> {PERSONAL_INFO.email}</p>
             <p><span className="text-cyber-electric-blue">GITHUB:</span> github.com/{PERSONAL_INFO.githubHandle}</p>
-            <p><span className="text-teal-300">LOCATION:</span> Da Nang / HCMC, Vietnam</p>
+            <p><span className="text-teal-300">LOCATION:</span> Thai Binh / Hung Yen, Vietnam</p>
           </div>
         );
         break;
@@ -191,9 +191,9 @@ export const Hero: React.FC<HeroProps> = ({ onRequestResume, onOpenProject }) =>
               // HELLO WORLD, I'M
             </span>
             <h1 className="text-3xl sm:text-5xl xl:text-7xl font-bold tracking-tight text-white leading-tight font-sans drop-shadow-[0_0_20px_rgba(0,245,255,0.35)]">
-              ALEXANDER<br className="sm:hidden" />{' '}
+              CONG<br className="sm:hidden" />{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-neon-cyan via-cyber-electric-blue to-teal-200 neon-text-glow">
-                NGUYEN
+                CHU
               </span>
             </h1>
             <p className="text-base sm:text-xl font-mono text-cyber-neon-cyan/90 pt-1 font-medium">
@@ -205,7 +205,7 @@ export const Hero: React.FC<HeroProps> = ({ onRequestResume, onOpenProject }) =>
           <div className="w-full relative h-48 sm:h-56 md:h-64 rounded-xl overflow-hidden bg-cyber-card border border-cyber-border shadow-xl group">
             <img
               src={PERSONAL_INFO.avatarUrl}
-              alt="Alexander Nguyen - Futuristic Cyber Terminal"
+              alt="Cong Chu - Futuristic Cyber Terminal"
               className="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#05070A] via-[#05070A]/40 to-transparent"></div>

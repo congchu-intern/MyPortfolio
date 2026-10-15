@@ -68,7 +68,7 @@ ${PERSONAL_INFO.bio}
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `Alexander_Nguyen_Software_Developer_Resume.md`;
+    link.download = `Cong_Chu_Software_Developer_Resume.md`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

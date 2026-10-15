@@ -33,7 +33,7 @@ export const SystemBar: React.FC<SystemBarProps> = ({
       try {
         const now = new Date();
         const options: Intl.DateTimeFormatOptions = {
-          timeZone: 'Asia/Ho_Chi_Minh',
+          timeZone: 'Asia/Ha_Noi',
           hour: '2-digit',
           minute: '2-digit',
           second: '2-digit',
@@ -117,7 +117,7 @@ export const SystemBar: React.FC<SystemBarProps> = ({
         </button>
 
         <span className="hidden lg:inline text-cyber-muted/80 border-l border-cyber-border pl-3">
-          LOC: DA NANG, VN [{timeStr || 'GMT+7'}]
+          LOC: HUNG YEN, VN [{timeStr || 'GMT+7'}]
         </span>
       </div>
     </div>

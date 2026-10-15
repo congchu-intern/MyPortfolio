@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center gap-3 text-center">
         {/* Brand */}
         <span className="font-mono text-base sm:text-lg font-bold text-cyber-neon-cyan tracking-wider drop-shadow-[0_0_8px_rgba(0,245,255,0.6)]">
-          &lt;ALEXANDER.DEV /&gt;
+          &lt;CONGDZ.DEV /&gt;
         </span>
         <span className="text-[11px] uppercase tracking-widest text-cyber-muted">
           DESIGNED &amp; BUILT WITH PASSION

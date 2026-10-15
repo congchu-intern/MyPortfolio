@@ -2,7 +2,7 @@ import { Project, SkillItem, TimelineItem } from '../types';
 
 export const PERSONAL_INFO = {
   name: 'Cong Chu',
-  callsign: 'CongDz.DEV',
+  callsign: 'CONGDZ.DEV',
   version: 'v2.5',
   headline: 'Software Developer | Cybersecurity Enthusiast',
   bio: 'I build modern digital experiences and explore the world of technology, security, and software engineering. Turning vulnerabilities into strengths, one line of code at a time.',
@@ -115,7 +115,7 @@ export const PROJECTS: Project[] = [
         'Zero dynamic string concatenation in SQL statements.',
         'Granular database transaction rollbacks for concurrent course registrations.',
       ],
-      githubRepo: 'https://github.com/alex-dev-cyber/student-management-system',
+      githubRepo: 'https://github.com/congchu-intern/MyPortfolio',
     },
   },
   {
@@ -153,7 +153,7 @@ export const PROJECTS: Project[] = [
         'Content Security Policy (CSP) compliant without third-party tracker scripts.',
         'Sanitized client-side inputs and rate-limiting on interactive forms.',
       ],
-      githubRepo: 'https://github.com/alex-dev-cyber/alex-cyber-portfolio',
+      githubRepo: 'https://github.com/congchu-intern/MyPortfolio',
       liveDemoUrl: '#hero',
     },
   },
@@ -192,7 +192,7 @@ export const PROJECTS: Project[] = [
         'Encrypted credentials storage using OS DPAPI (Data Protection API).',
         'Read-only sandbox mode preventing accidental DROP/TRUNCATE in production.',
       ],
-      githubRepo: 'https://github.com/alex-dev-cyber/db-query-optimizer-client',
+      githubRepo: 'https://github.com/congchu-intern/MyPortfolio',
     },
   },
   {
@@ -231,7 +231,7 @@ export const PROJECTS: Project[] = [
         'Restricted sudo access and strict file ownership permissions.',
         'Automated security patch deployment with unattended-upgrades.',
       ],
-      githubRepo: 'https://github.com/alex-dev-cyber/linux-server-configs',
+      githubRepo: 'https://github.com/congchu-intern/MyPortfolio',
     },
   },
 ];
